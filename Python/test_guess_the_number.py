@@ -15,5 +15,8 @@ class TestGuessTheNumber(unittest.TestCase):
         """
         self.assertEqual(check_guess(10, 25), "Too high!")
 
+    def test_check_guess_correct(self):
+        self.assertEqual(check_guess(25, 25), "Correct!")
+
 if __name__ == "__main__":
     unittest.main()
