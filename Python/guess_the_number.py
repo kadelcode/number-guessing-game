@@ -66,7 +66,7 @@ def guess_the_number():
             if attempts <=  4:
                 if result == "Correct!":
                     guessed_correctly = True
-                    print(f"congratulations! You guessed the number in {attempts} attempts.")
+                    print(f"Congratulations! You guessed the number in {attempts} attempts.")
             else:
                 print("Game Over! Attempts exceeded")
                 print(f"The number is {number_to_guess}")
